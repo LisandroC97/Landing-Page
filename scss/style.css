@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
 /*Estilo base*/
 * {
-  width: 360px;
+  width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,23 +19,41 @@ body {
   background: #252422;
   background: linear-gradient(180deg, #252422 43%, rgb(235, 94, 40) 100%);
 }
-body h1 {
+body .barra {
+  background-color: #EB5E28;
+  width: 100%;
+  height: 3%;
+  position: absolute;
+}
+body .presentacion {
+  width: 100%;
+  background-color: #252422;
+  padding: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 20px;
+}
+body .presentacion h1 {
   text-align: center;
   color: #EB5E28;
   font-size: 2em;
   padding: 1rem;
 }
-body h2 {
+body .presentacion h2 {
   color: #FFFCF2;
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
 }
-body .presentacion {
-  background-color: rgba(64, 61, 57, 0.44);
-}
-body .presentacion .textopresentacion {
+body .container {
+  background-color: #252422;
   color: #FFFCF2;
+}
+body .container .col-4 {
+  border: white solid 1px;
+}
+body .container .col-8 {
+  border: white solid 1px;
 }
 body .accordion {
   font-size: 0.7rem;
