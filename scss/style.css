@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*Importación de fuente*/
+/*Fuente a utilizar descargada de google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+/*Estilo base*/
+* {
+  width: 360px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Sen", sans-serif;
+}
+
+body {
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #252422;
+  background: linear-gradient(180deg, #252422 43%, rgb(235, 94, 40) 100%);
+}
+body h1 {
+  text-align: center;
+  color: #EB5E28;
+  font-size: 2em;
+  padding: 1rem;
+}
+body h2 {
+  color: #FFFCF2;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+body .presentacion {
+  background-color: rgba(64, 61, 57, 0.44);
+}
+body .presentacion .textopresentacion {
+  color: #FFFCF2;
+}
+body .accordion {
+  font-size: 0.7rem;
+  color: #FFFCF2;
+  background-color: #EB5E28;
+}
+body .accordion-button {
+  text-align: left;
+  padding: 10px;
+  color: #FFFCF2;
+  background-color: #EB5E28;
+  border: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}/*# sourceMappingURL=style.css.map */
