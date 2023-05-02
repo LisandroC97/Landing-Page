@@ -16,18 +16,18 @@ body {
   margin: auto;
   height: -moz-fit-content;
   height: fit-content;
-  background: #252422;
-  background: linear-gradient(180deg, #252422 43%, rgb(235, 94, 40) 100%);
+  background: #10002B;
+  background: linear-gradient(180deg, #10002B 43%, rgb(60, 9, 108) 100%);
 }
 body .barra {
-  background-color: #EB5E28;
+  background-color: #7B2CBF;
   width: 100%;
   height: 3%;
   position: absolute;
 }
 body .presentacion {
   width: 100%;
-  background-color: #252422;
+  background-color: #10002B;
   padding: 20px;
   height: -moz-fit-content;
   height: fit-content;
@@ -35,19 +35,19 @@ body .presentacion {
 }
 body .presentacion h1 {
   text-align: center;
-  color: #EB5E28;
+  color: #C77DFF;
   font-size: 2em;
   padding: 1rem;
 }
 body .presentacion h2 {
-  color: #FFFCF2;
+  color: #E0AAFF;
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
 }
 body .container {
-  background-color: #252422;
-  color: #FFFCF2;
+  background-color: #10002B;
+  color: #E0AAFF;
 }
 body .container .col-4 {
   border: white solid 1px;
@@ -57,14 +57,15 @@ body .container .col-8 {
 }
 body .accordion {
   font-size: 0.7rem;
-  color: #FFFCF2;
-  background-color: #EB5E28;
+  color: #E0AAFF;
+  background-color: #7B2CBF;
 }
 body .accordion-button {
+  font-size: 1.2rem;
   text-align: left;
   padding: 10px;
-  color: #FFFCF2;
-  background-color: #EB5E28;
+  color: #E0AAFF;
+  background-color: #7B2CBF;
   border: none;
   margin-bottom: 5px;
   margin-top: 5px;
